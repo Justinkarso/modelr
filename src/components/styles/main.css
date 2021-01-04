@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+.nav {
+  background: #222;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 55px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav h1 {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+.nav ul li {
+  margin: 0 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav ul li a {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.header-img {
+  background-image: url("../../assets/img/Background.jpg");
+  height: 600px;
+  background-position: 50% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-img .inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header-img .inner-container h2 {
+  font-size: 36px;
+}
+
+.header-img .inner-container span {
+  font-size: 14px;
+}
+
+.second-nav {
+  width: 100%;
+  height: 55px;
+  background: #222;
+}
+
+.second-nav ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-nav ul li {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  background: 262E44;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-nav ul .active {
+  border-bottom: 5px solid #2145A7;
+}
+
+.second-nav ul .active a {
+  margin-top: 5px;
+}
+
+.list-container {
+  background: #333;
+  width: 100%;
+  padding: 60px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.list-card {
+  background: #222;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(33.333333% - 60px);
+          flex: 0 0 calc(33.333333% - 60px);
+  margin: 30px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.212);
+          box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.212);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list-card img {
+  width: 100%;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  max-height: 350px;
+}
+
+.list-card .inner {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.list-card .inner .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.list-card .inner .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.list-card .inner .right button {
+  padding: 10px 20px;
+  background: #2145A7;
+  color: #fefefe;
+  border-radius: 3px;
+  border: none;
+  margin-left: 20px;
+}
+
+.list-card .inner .right button:nth-child(1) {
+  background: #658CF5;
+}
+
+html {
+  background: #fefefe;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fefefe;
+  font-family: 'Rubik', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

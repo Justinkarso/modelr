@@ -1,0 +1,39 @@
+.nav{
+    background: #222;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+
+    a{
+        text-decoration: none;
+    }
+
+    h1{
+        text-decoration: none;
+        margin-left: 30px;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0 30px;
+        text-decoration: none;
+
+        li{
+            margin: 0 20px;
+            list-style: none;
+            text-decoration: none;
+
+            a{
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+        }
+    }
+}
