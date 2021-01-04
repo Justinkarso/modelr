@@ -28,7 +28,7 @@ const List = () => {
                                 <p>{item.age}
                             </p></div>
                             <div className="right">
-                                <button onClick={() => handleClick(i)}>Inspect</button>
+                                <button onClick={() => handleClick(i)}>inspect</button>
                                 <button>Download</button>
                             </div>
                         </div>
