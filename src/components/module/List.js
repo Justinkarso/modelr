@@ -6,9 +6,9 @@ const List = () => {
 
 
     useEffect(async () => {
-        const result = await axios('https://gist.githubusercontent.com/Justinkarso/1da68ddf3998b050d66e5c848f32aab2/raw/ac64ddadb689c806ef60896fb322079d4cfa6189/database',)
+        const result = await axios('https://gist.githubusercontent.com/Justinkarso/1da68ddf3998b050d66e5c848f32aab2/raw/257442d0644ecf1d8ec7c8c30bd04f2d48b53081/database',)
         setData(result.data)
-    })
+    }, [])
 
     const handleClick = (i) => {
         let test = i
